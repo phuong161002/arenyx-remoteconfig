@@ -100,13 +100,43 @@ if (lo.EventActive) ApplyXpBoost(lo.XpMultiplier);
 
 ### Installation
 
-Clone or copy the packages into your project's `Packages/` folder:
+#### Option A — Git URL (recommended)
+
+In Unity, go to **Window → Package Manager → "+" → Add package from git URL** and add the following URLs **in order**:
+
+```
+https://github.com/<org>/Arenyx.RemoteConfig.git?path=Packages/com.arenyx.remoteconfig.core
+https://github.com/<org>/Arenyx.RemoteConfig.git?path=Packages/com.arenyx.remoteconfig.sourcegen
+https://github.com/<org>/Arenyx.RemoteConfig.git?path=Packages/com.arenyx.remoteconfig.firebaseunity
+```
+
+Or edit `Packages/manifest.json` directly:
+
+```json
+{
+  "dependencies": {
+    "com.arenyx.remoteconfig.core": "https://github.com/<org>/Arenyx.RemoteConfig.git?path=Packages/com.arenyx.remoteconfig.core#v1.0.0",
+    "com.arenyx.remoteconfig.sourcegen": "https://github.com/<org>/Arenyx.RemoteConfig.git?path=Packages/com.arenyx.remoteconfig.sourcegen#v1.0.0",
+    "com.arenyx.remoteconfig.firebaseunity": "https://github.com/<org>/Arenyx.RemoteConfig.git?path=Packages/com.arenyx.remoteconfig.firebaseunity#v1.0.0"
+  }
+}
+```
+
+> **Pin a version** by appending `#v1.0.0` (tag) or `#abc1234` (commit hash) to the URL.
+>
+> **Install order matters** — `core` must be added before `sourcegen` and `firebaseunity` since they depend on it. Unity does not auto-resolve transitive git dependencies.
+>
+> **Private repos** require SSH keys or a Git credential helper configured on your machine.
+
+#### Option B — Embedded packages
+
+Clone or copy the package folders into your project's `Packages/` directory:
 
 ```
 Packages/
   com.arenyx.remoteconfig.core/
-  com.arenyx.remoteconfig.firebaseunity/
   com.arenyx.remoteconfig.sourcegen/
+  com.arenyx.remoteconfig.firebaseunity/
 ```
 
 Unity will auto-detect the embedded UPM packages. No `manifest.json` edits needed.
