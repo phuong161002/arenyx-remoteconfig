@@ -105,13 +105,13 @@ if (lo.EventActive) ApplyXpBoost(lo.XpMultiplier);
 In Unity, go to **Window → Package Manager → "+" → Add package from git URL** and add the following URLs **in order**:
 
 ```
-https://github.com/phuong161002/Arenyx.RemoteConfig.git?path=Packages/com.arenyx.remoteconfig.core
+https://github.com/phuong161002/arenyx-remoteconfig.git?path=Packages/com.arenyx.remoteconfig.core
 ```
 ```
-https://github.com/phuong161002/Arenyx.RemoteConfig.git?path=Packages/com.arenyx.remoteconfig.sourcegen
+https://github.com/phuong161002/arenyx-remoteconfig.git?path=Packages/com.arenyx.remoteconfig.sourcegen
 ```
 ```
-https://github.com/phuong161002/Arenyx.RemoteConfig.git?path=Packages/com.arenyx.remoteconfig.firebaseunity
+https://github.com/phuong161002/arenyx-remoteconfig.git?path=Packages/com.arenyx.remoteconfig.firebaseunity
 ```
 
 Or edit `Packages/manifest.json` directly:
@@ -119,9 +119,9 @@ Or edit `Packages/manifest.json` directly:
 ```json
 {
   "dependencies": {
-    "com.arenyx.remoteconfig.core": "https://github.com/phuong161002/Arenyx.RemoteConfig.git?path=Packages/com.arenyx.remoteconfig.core#v1.0.0",
-    "com.arenyx.remoteconfig.sourcegen": "https://github.com/phuong161002/Arenyx.RemoteConfig.git?path=Packages/com.arenyx.remoteconfig.sourcegen#v1.0.0",
-    "com.arenyx.remoteconfig.firebaseunity": "https://github.com/phuong161002/Arenyx.RemoteConfig.git?path=Packages/com.arenyx.remoteconfig.firebaseunity#v1.0.0"
+    "com.arenyx.remoteconfig.core": "https://github.com/phuong161002/arenyx-remoteconfig.git?path=Packages/com.arenyx.remoteconfig.core#v1.0.0",
+    "com.arenyx.remoteconfig.sourcegen": "https://github.com/phuong161002/arenyx-remoteconfig.git?path=Packages/com.arenyx.remoteconfig.sourcegen#v1.0.0",
+    "com.arenyx.remoteconfig.firebaseunity": "https://github.com/phuong161002/arenyx-remoteconfig.git?path=Packages/com.arenyx.remoteconfig.firebaseunity#v1.0.0"
   }
 }
 ```
