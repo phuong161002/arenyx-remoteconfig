@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "461018576737",
+    "project_id": "remoteconfigtest-371e2",
+    "storage_bucket": "remoteconfigtest-371e2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461018576737:android:21f25e4b7f9f9c4a087720",
+        "android_client_info": {
+          "package_name": "com.arenyx.remoteconfig"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxPbHNOW84vTImejxIZ9x_8Ugy2jbLlbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

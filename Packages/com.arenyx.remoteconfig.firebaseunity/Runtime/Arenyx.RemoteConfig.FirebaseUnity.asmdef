@@ -1,0 +1,19 @@
+{
+  "name": "Arenyx.RemoteConfig.FirebaseUnity",
+  "rootNamespace": "Arenyx.RemoteConfig.FirebaseUnity",
+  "references": [
+    "Arenyx.RemoteConfig.Core"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Firebase.App.dll",
+    "Firebase.RemoteConfig.dll"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,15 @@
+{
+  "name": "com.arenyx.remoteconfig.core",
+  "version": "0.1.0",
+  "displayName": "Arenyx Remote Config Core",
+  "description": "Backend-agnostic core runtime for Arenyx Remote Config SDK.",
+  "unity": "6000.0",
+  "keywords": [
+    "remote-config",
+    "configuration",
+    "arenyx"
+  ],
+  "author": {
+    "name": "Arenyx"
+  }
+}

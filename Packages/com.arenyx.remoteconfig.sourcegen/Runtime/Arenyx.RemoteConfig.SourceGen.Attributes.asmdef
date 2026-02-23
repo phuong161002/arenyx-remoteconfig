@@ -1,0 +1,14 @@
+{
+  "name": "Arenyx.RemoteConfig.SourceGen.Attributes",
+  "rootNamespace": "Arenyx.RemoteConfig.SourceGen",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

@@ -1,0 +1,18 @@
+{
+    "name": "com.arenyx.remoteconfig.sourcegen",
+    "version": "0.1.0",
+    "displayName": "Arenyx Remote Config Source Generator",
+    "description": "Source generator and attributes for Arenyx Remote Config SDK binder generation.",
+    "unity": "6000.0",
+    "dependencies": {
+        "com.arenyx.remoteconfig.core": "0.1.0"
+    },
+    "keywords": [
+        "remote-config",
+        "source-generator",
+        "arenyx"
+    ],
+    "author": {
+        "name": "Arenyx"
+    }
+}
